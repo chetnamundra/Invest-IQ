@@ -1,1 +1,2 @@
 print("yesy")
+print("ok")
