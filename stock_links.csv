@@ -1,0 +1,4 @@
+name,stockcode,screener,tcikertape,investing
+hdfcbank,HDBK,https://www.screener.in/company/HDFCBANK/consolidated/,https://www.tickertape.in/stocks/hdfc-bank-HDBK,https://in.investing.com/equities/hdfc-bank-ltd
+irctc,IRCTC,https://www.screener.in/company/IRCTC/,https://www.tickertape.in/stocks/indian-railway-catering-and-tourism-corporation-INIR,https://in.investing.com/equities/indian-railway-catering-and-tourism
+infosys,INFY,https://www.screener.in/company/INFY/consolidated/,https://www.tickertape.in/stocks/infosys-INFY,https://in.investing.com/equities/infosys
