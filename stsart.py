@@ -1,2 +1,0 @@
-print("yesy")
-print("ok")

@@ -1,4 +1,11 @@
-name,stockcode,screener,tcikertape,investing
-hdfcbank,HDBK,https://www.screener.in/company/HDFCBANK/consolidated/,https://www.tickertape.in/stocks/hdfc-bank-HDBK,https://in.investing.com/equities/hdfc-bank-ltd
-irctc,IRCTC,https://www.screener.in/company/IRCTC/,https://www.tickertape.in/stocks/indian-railway-catering-and-tourism-corporation-INIR,https://in.investing.com/equities/indian-railway-catering-and-tourism
-infosys,INFY,https://www.screener.in/company/INFY/consolidated/,https://www.tickertape.in/stocks/infosys-INFY,https://in.investing.com/equities/infosys
+name,stockcode,screener,tcikertape,marketwatch,generalinfo
+hdfcbank,HDBK,https://www.screener.in/company/HDFCBANK/consolidated/,https://www.tickertape.in/stocks/hdfc-bank-HDBK,https://www.marketwatch.com/search?q=hdfc&ts=0&tab=All%20News,hdfc.txt
+irctc,IRCTC,https://www.screener.in/company/IRCTC/,https://www.tickertape.in/stocks/indian-railway-catering-and-tourism-corporation-INIR,https://www.marketwatch.com/search?q=%22indian%20railway%22&ts=0&tab=All%20News,irctc.txt
+infosys,INFY,https://www.screener.in/company/INFY/consolidated/,https://www.tickertape.in/stocks/infosys-INFY,https://www.marketwatch.com/search?q=infosys&ts=0&tab=All%20News,infosys.txt
+icici,ICICIBANK,https://www.screener.in/company/ICICIBANK/consolidated/,https://www.tickertape.in/stocks/icici-bank-ICBK,https://www.marketwatch.com/search?q=icici%20bank&ts=0&tab=All%20News,icici.txt
+tcs,TCS,https://www.screener.in/company/TCS/consolidated/,https://www.tickertape.in/stocks/tata-consultancy-services-TCS,https://www.marketwatch.com/search?q=%22tata%20consultancy%20service%22&ts=0&tab=All%20News,tcs.txt
+reliance,RELIANCE,https://www.screener.in/company/RELIANCE/consolidated/,https://www.tickertape.in/stocks/reliance-industries-RELI,https://www.marketwatch.com/search?q=reliance%20industries&ts=0&tab=All%20News,ril.txt
+hul,HINDUNILVR,https://www.screener.in/company/HINDUNILVR/consolidated/,https://www.tickertape.in/stocks/hindustan-unilever-HLL,https://www.marketwatch.com/search?q=hindustan%20unilever&ts=0&tab=All%20News,hul.txt
+asianpaints,ASIANPAINT,https://www.screener.in/company/ASIANPAINT/consolidated/,https://www.tickertape.in/stocks/asian-paints-ASPN,https://www.marketwatch.com/search?q=asian%20paints&ts=0&tab=All%20News,asianpaints.txt
+bajajfinance,BAJFINANCE,https://www.screener.in/company/BAJFINANCE/consolidated/,https://www.tickertape.in/stocks/bajaj-finance-BJFN,https://www.marketwatch.com/search?q=bajaj%20finance&ts=0&tab=All%20News,bajajfinance.txt
+marutisuzuki,MARUTI,https://www.screener.in/company/MARUTI/consolidated/,https://www.tickertape.in/stocks/maruti-suzuki-india-MRTI,https://www.marketwatch.com/search?q=maruti%20suzuki&ts=0&tab=All%20News,marutisuzuki.txt

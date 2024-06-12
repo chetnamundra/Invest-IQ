@@ -5,9 +5,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
 
-def pro_con(driver, url):
+def pro_con(driver):
 
-    driver.get(url)
     analysis_element = driver.find_element(By.ID, "analysis")
     analysis_text = analysis_element.text
 
@@ -40,9 +39,8 @@ def preprocess_table(l):
     return text
 
 
-def top(driver, url):
+def top(driver):
 
-    driver.get(url)
     top_element = driver.find_element(By.ID, "top")
     ul_elements = top_element.find_elements(By.TAG_NAME, "ul")
     ul_texts = [ul.text for ul in ul_elements]
@@ -51,9 +49,8 @@ def top(driver, url):
     return ul_texts
 
 
-def table_data(driver, url):
+def table_data(driver):
 
-    driver.get(url)
     section_element = driver.find_element(By.ID, "profit-loss")
     tables = section_element.find_elements(By.CLASS_NAME, "ranges-table")
 

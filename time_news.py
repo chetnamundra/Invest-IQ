@@ -22,12 +22,13 @@ def get_news(driver):
             anchor_tag = item.find_element(By.TAG_NAME, "a")
 
             headline = anchor_tag.text.strip()
-            headlines.append(headline)
+            if headline != "":
+                headlines.append(headline)
         except Exception as e:
             print(f"Failed to extract headline: {e}")
 
     for idx, headline in enumerate(headlines, start=1):
-        print(f"{idx}. {headline}")
+        # print(f"{idx}. {headline}")
         headline_text += f"{idx}. {headline}" + "\n"
 
     return headline_text

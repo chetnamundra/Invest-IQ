@@ -1,10 +1,22 @@
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
+import time
+import random
 
 
-def extract_top_4_headlines(driver, url):
+# Define a function for random delays to mimic human interaction
+def random_delay(min_delay=1, max_delay=3):
+    time.sleep(random.uniform(min_delay, max_delay))
+
+
+# Define a function to extract top headlines
+def extract_top_headlines(driver, url):
     driver.get(url)
+    random_delay()  # Add a random delay
 
     # Wait until the main news container is loaded
     WebDriverWait(driver, 10).until(
@@ -20,8 +32,10 @@ def extract_top_4_headlines(driver, url):
     results = []
     text = ""
 
-    # Extract details from the top 4 articles
-    for article in article_elements[:4]:
+    # Extract details from the top articles
+    for article in article_elements[:10]:
+        random_delay()  # Add a random delay
+
         # Extract the headline
         headline = article.find_element(By.CLASS_NAME, "article__headline").text.strip()
 

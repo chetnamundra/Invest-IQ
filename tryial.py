@@ -1,68 +1,6 @@
-Market Cap ₹ 6,21,489 Cr.
-Current Price ₹ 1,497
-High / Low ₹ 1,733 / 1,262
-Stock P/E 23.9
-Book Value ₹ 212
-Dividend Yield 2.53 %
-ROCE 40.0 %
-ROE 31.8 %
-Face Value ₹ 5.00
+import csv
 
-
-Compounded Sales Growth
-10 Years:12%
-5 Years:13%
-3 Years:15%
-TTM:5%
-
-Compounded Profit Growth
-10 Years:9%
-5 Years:11%
-3 Years:10%
-TTM:8%
-
-Stock Price CAGR
-10 Years:14%
-5 Years:15%
-3 Years:1%
-1 Year:15%
-
-Return on Equity
-10 Years:27%
-5 Years:29%
-3 Years:31%
-Last Year:32%
-
-TTM PE Ratio 23.12
-PB Ratio 6.86
-Dividend Yield 3.14%
-Sector PE 29.85
-Sector PB 8.12
-Sector Div Yld 1.95%
-
-PROS
-Company is almost debt free.
-Company has a good return on equity (ROE) track record: 3 Years ROE 30.9%
-Company has been maintaining a healthy dividend payout of 63.3%
-CONS
-Stock is trading at 7.09 times its book value
-Promoter holding is low: 14.7%
-* The pros and cons are machine generated.
-
-percentage69
-%Analysts have suggested that investors can buy this stockfrom 42 analysts
-Higher than Industry Revenue Growth : Over the last 5 years, revenue has grown at a yearly rate of 15.15%, vs industry avg of 13.37%
-Increasing Market Share : Over the last 5 years, market share increased from 18.14% to 20.21%
-Lower than Industry Net Income : Over the last 5 years, net income has grown at a yearly rate of 8.49%, vs industry avg of 10.17%
-
-Promoter Holdings Trend : Total Promoter Holding : In last 6 months, promoter holding in the company has almost stayed constant
-Promoter Holdings Trend : Low Pledged Promoter Holding : Pledged promoter holdings is insignificant
-Institutional Holdings Trend : Total Retail Holding : In last 3 months, retail holding in the company has almost stayed constant
-Institutional Holdings Trend : Foreign Institutional Holding : In last 3 months, foreign institutional holding of the company has almost stayed constant
-
-dividend Trend : Increasing Dividends : INFY has increased dividends consistently over the last 5 years
-dividend Trend : Dividend Yield : Current dividend yield is 3.14%. An investment of ₹1,000 in the stock is expected to generate dividend of ₹31.39 every year
-
+current_affairs = """
 1. Sensex's next target is 1 lakh under Nirmala's second regime as FM
 2. MS bullish on 4 gas stocks if natural gas attracts GST
 3. BoB to IDBI need to wait for ₹6,200 cr from Go First
@@ -130,5 +68,17 @@ dividend Trend : Dividend Yield : Current dividend yield is 3.14%. An investment
 65. Siam seeks GST reduction on two-wheelers
 66. Wipro Consumer CEO bullish on rural
 67. Two options on calendar for budget session
-68. Buyers return to stores as gold prices cool down
+68. Buyers return to stores as gold prices cool down"""
 
+
+def extract_and_save_data(stock_data):
+    print(stock_data)
+
+
+def read_stock_data_from_csv(csv_file):
+    stock_data = []
+    with open(csv_file, newline="", encoding="utf-8") as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            stock_data.append(row)
+    return stock_data
