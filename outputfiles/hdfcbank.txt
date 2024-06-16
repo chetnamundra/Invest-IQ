@@ -13,12 +13,12 @@ Current affairs impacting HDFC include political issues such as government polic
 
 Investing in HDFC requires a comprehensive analysis of the company's fundamentals and the broader economic and geopolitical landscape. HDFC’s strong market position, consistent financial performance, and focus on innovation make it a viable long-term investment. However, potential investors must stay informed about industry trends, economic conditions, regulatory changes, and other current affairs that could impact the company's performance. Evaluating financial metrics such as the P/E ratio, ROE, and EPS, along with considering industry trends, economic factors, company-specific factors, and current affairs, will provide a well-rounded view of the investment potential in HDFC.
 Current Financial Analysis
-Market Cap ₹ 11,97,010 Cr.
-Current Price ₹ 1,574
+Market Cap ₹ 12,14,547 Cr.
+Current Price ₹ 1,597
 High / Low ₹ 1,758 / 1,363
-Stock P/E 18.8
+Stock P/E 19.0
 Book Value ₹ 519
-Dividend Yield 1.25 %
+Dividend Yield 1.22 %
 ROCE 9.50 %
 ROE 22.1 %
 Face Value ₹ 1.00
@@ -38,9 +38,9 @@ TTM:39%
 
 Stock Price CAGR
 10 Years:14%
-5 Years:5%
+5 Years:6%
 3 Years:2%
-1 Year:-2%
+1 Year:0%
 
 Return on Equity
 10 Years:18%
@@ -51,18 +51,29 @@ Last Year:22%
 TTM PE Ratio 18.01
 PB Ratio 3.97
 Dividend Yield 0.94%
-Sector PE 17.11
-Sector PB 2.81
+Sector PE 17.05
+Sector PB 2.80
 Sector Div Yld 0.80%
 
 Current Company News
+
+2024-06-14T06:30:00 : HDFC Bank rises Friday, outperforms market
+2024-06-13T06:30:00 : HDFC Bank rises Thursday, outperforms market
+2024-06-12T06:30:00 : HDFC Bank rises Wednesday, outperforms market
+2024-06-11T06:30:00 : HDFC Bank rises Tuesday, outperforms market
+2024-06-10T06:30:00 : HDFC Bank falls Monday, underperforms market
+2024-05-30T04:00:00 : TRANSPORTATION India Is Building More Roads and Railroads. 7 Stocks to Buy.
+2024-04-11T01:30:00 : REAL ESTATE India’s Housing Market Is Booming. What’s Driving the Big Gains.
+2024-02-01T11:04:00 : India is winning over investors as Chinese stocks struggle, these charts show
+2024-01-26T08:38:00 : The correlation between bonds and stocks has ruptured. It’s not a problem for equities, says this analyst.
+2024-01-23T08:37:00 : Here’s what big consumer-sentiment gains mean for the stock market — and this one is unusual
 PROS
 Company is expected to give good quarter
 Company has delivered good profit growth of 23.5% CAGR over last 5 years
 Company has been maintaining a healthy dividend payout of 22.9%
 Company's median sales growth is 16.4% of last 10 years
 CONS
-Stock is trading at 3.07 times its book value
+Stock is trading at 3.08 times its book value
 Company has low interest coverage ratio.
 Tax rate seems low
 Contingent liabilities of Rs.18,22,393 Cr.
@@ -149,4 +160,64 @@ General Current Affairs
 65. Siam seeks GST reduction on two-wheelers
 66. Wipro Consumer CEO bullish on rural
 67. Two options on calendar for budget session
-68. Buyers return to stores as gold prices cool down
+68. Buyers return to stores as gold prices cool down1. China clashes cost India's gadget makers $15 bn & 100,000 jobs
+2. Boeing just can't seem to fly out of its air pocket
+3. Hyundai India files for $2.5 billion IPO
+4. No, Trai won’t charge you for multiple SIMs
+5. India cuts windfall tax on petroleum crude
+6. ET MARKETS
+7. 191 stocks shine with double-digit gains
+8. 10 companies that returned to profit in Q4
+9. 3 sectors that could be dark horse of FY25
+10. Congress hold 'Matka phod' protest in Delhi
+11. Modi, Trudeau hold brief talk amid strained ties
+12. Eid: Banks in these states will be closed on Monday
+13. Modi, Meloni review India-Italy progress
+14. Get higher home loan eligibility with minimal cost
+15. Retail giants are facing a new 'lifting' problem - not just from customers, but also staff & vendors
+16. Top US delegation to vist India next week
+17. Are banks open today?
+18. Porsche: Juvenile's aunt files plea for his release
+19. AI must foster progress, well-being of all: Modi
+20. Amit Shah to review J&K, Amarnath security
+21. India Inc makes a play for equality with bets on all-women teams to take over male-dominated job roles
+22. Why Modi is at G7 Summit, and why G7 needs him
+23. Nitish brought shame to Bihar...: Prashant Kishor
+24. Heat wave continues in Punjab, Haryana
+25. Deals Digest: Startup funding drops 28% on year
+26. Increase MSP of sugar to Rs 42/kg: NFCSF
+27. Adani Cements to sail into savings with lower logistics costs post-Penna buyout
+28. G7: PM Modi calls for ending monopoly in tech
+29. Mastering data analytics for business
+30. Nykaa grants 4.73 lakh shares under Esop scheme
+31. Budget-day release for FAME-III; ETtech Full Stack
+32. Rajat Sharma sues Cong leaders for defamation
+33. Delhi LG sanctions prosecution of Arundhati Roy
+34. Parcel pivot: Logistics giants Delhivery and Xpressbees jump into quick-commerce frenzy
+35. D-St smashes record; HDFC Bank, RIL lead the charge
+36. Games 24x7 posts 70% rise in FY23 revenue
+37. India looks to sign FTA after UK's snap elections
+38. Trai meets BFSI, cos to use 160 series for voice calls
+39. Freezing of Russian assets in West is 'theft': Putin
+40. Post elections, a come back with bulls: 4 large cap stocks from different sector with upside potential of up to 21 %
+41. Neither PSU, nor private: 7 hybrid model banks with an upside potential of up to 41%
+42. Weekly Top Picks: These large and mid cap stocks scored 10 on 10 on Stock Reports Plus
+43. A lot can happen over CAFE, as govt brews new fuel-efficiency norms for cars
+44. Caught in a rut: How fruits of the season are falling victim to climate extremes
+45. Key issues Akasa must address now to switch the seat belt sign off
+46. Telcos begin caller ID service trials
+47. New Zealand hammer Uganda by 9 wickets
+48. US Visa Bulletin: Big leap in Green Card date
+49. Modi meets Biden, other global leaders at G7
+50. PESB finds no one suitable for HPCL top job
+51. More and more NRIs prefer investing in India
+52. Network 18, arms get nod for merger scheme
+53. Informal mfg, services gained during FY23
+54. 10th round of coal block auction to kick off
+55. Trai won’t charge users for multiple SIMs
+56. T20 WC: First-timers USA knock out Pak
+57. PM Modi, Zelenskyy discuss oil exports
+58. Cong workers to hold 'matka phod' protest
+59. Forex reserves rise by $4.3 bn to fresh peak
+60. Kotak Life & Mr. and Mrs. Mahi – A Tale of Securing Dreams
+

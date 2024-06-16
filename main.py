@@ -1,112 +1,68 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
+from kivy.app import App
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.label import Label
+from kivy.uix.screenmanager import ScreenManager, Screen
+from kivy.core.window import Window
 
-import csv
-import screener
-import ticker_tape
-import market_watch
-import time_news
-from tryial import current_affairs
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.options import Options
+from app.choose_stock import create_top_layout
+from app.financial import create_bottom
+from web_scrape.ws_main import run_now
 
-# # Setup Chrome options
-# chrome_options = Options()
-# chrome_options.add_argument(
-#     "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-# )
-# chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-# chrome_options.add_argument("--start-maximized")
-# chrome_options.add_argument("--incognito")
+class HousePredictionApp(App):
+    def build(self):
+        self.screen_manager = ScreenManager()
+        self.home_screen()
+        return self.screen_manager
 
-# # Load a custom profile
-# chrome_options.add_argument("user-data-dir=selenium_profile")
+    def home_screen(self):
+        home_screen = Screen(name="home")
 
-# # Initialize the WebDriver
-# service = Service("chromedriver-win64/chromedriver.exe")
-# driver = webdriver.Chrome(service=service, options=chrome_options)
+        def main_layout(value):
+            layout = BoxLayout(orientation="horizontal", size_hint=(1, 1))
 
+            layout_1 = BoxLayout(orientation="vertical", size_hint=(0.25, 1))
 
-def extract_and_save(stock):
+            top_layout = BoxLayout(orientation="vertical", size_hint=(1, 0.2))
+            top_layout, cur_stock = create_top_layout(top_layout)
+            if cur_stock != "":
+                financial_data, filename = run_now(cur_stock)
 
-    global current_affairs
+            bottom_layout = BoxLayout(size_hint=(1, 0.8))
+            bottom_layout = create_bottom(bottom_layout, financial_data)
 
-    service = Service("chromedriver-win64\chromedriver.exe")
-    driver = webdriver.Chrome(service=service)
+            layout_1.add_widget(top_layout)
+            layout_1.add_widget(bottom_layout)
 
-    name = stock["name"]
-    screener_url = stock["screener"]
-    ticker_tape_url = stock["tcikertape"]
-    market_watch_url = stock["marketwatch"]
-    general_info = stock["generalinfo"]
+            layout_2 = BoxLayout(orientation="vertical", size_hint=(0.5, 1))
+            ai_layout = BoxLayout(size_hint=(1, 0.5))
+            ai_layout.add_widget(Label(text="ai"))
+            chart_layout = BoxLayout(size_hint=(1, 0.5))
+            chart_layout.add_widget(Label(text="chart"))
 
-    company_news = ""
-    crunching_numbers = ""
-    # current_affairs = ""
+            layout_2.add_widget(ai_layout)
+            layout_2.add_widget(chart_layout)
 
-    # text = market_watch.extract_top_headlines(driver, market_watch_url)
-    # company_news += "\n" + text
+            layout_3 = BoxLayout(size_hint=(0.25, 1))
+            layout_3.add_widget(Label(text="chatbot"))
 
-    driver.get(screener_url)
-    text = screener.pro_con(driver)
-    company_news += text + "\n"
+            layout.add_widget(layout_1)
+            layout.add_widget(layout_2)
+            layout.add_widget(layout_3)
 
-    numbers = screener.top(driver)
-    crunching_numbers += numbers + "\n"
+            return layout
 
-    quaterly_table = screener.table_data(driver)
-    crunching_numbers += "\n" + quaterly_table
+        layout = main_layout(Window.width)
+        home_screen.add_widget(layout)
+        self.screen_manager.add_widget(home_screen)
 
-    driver.get(ticker_tape_url)
-    text = ticker_tape.table_contents(driver)
-    crunching_numbers += text
+        def on_width_change_for_main(instance, value):
+            new_layout = main_layout(value)
+            home_screen.clear_widgets()
+            home_screen.add_widget(new_layout)
 
-    text = ticker_tape.extract_forecast_text(driver)
-    company_news += "\n" + text
-
-    text = ticker_tape.extract_commentary_text(driver)
-    company_news += "\n" + text
-
-    text = ticker_tape.extract_holdings_text(driver)
-    company_news += "\n" + text
-
-    text = ticker_tape.extract_dividend_trend_text(driver)
-    company_news += "\n" + text
-
-    # text = time_news.get_news(driver)
-    # current_affairs += text
-
-    driver.quit()
-
-    if general_info:
-        with open("generalinfo/" + general_info, "r", encoding="utf-8") as gen_file:
-            general_info_data = gen_file.read()
-
-    filename = name + ".txt"
-    output_filepath = "outputfiles/" + filename
-
-    with open(output_filepath, "w", encoding="utf-8") as file:
-        file.write("Initial information about the company\n")
-        file.write(general_info_data + "\n")
-        file.write("Current Financial Analysis\n")
-        file.write(crunching_numbers + "\n")
-        file.write("Current Company News\n")
-        file.write(company_news + "\n")
-        file.write("General Current Affairs\n")
-        file.write(current_affairs + "\n")
-
-
-def read_stock_data_from_csv(csv_file):
-    stock_data = []
-    with open(csv_file, newline="", encoding="utf-8") as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            stock_data.append(row)
-    return stock_data
+        Window.bind(width=on_width_change_for_main)
 
 
 if __name__ == "__main__":
-    csv_file = "stock_links.csv"
-    stock_data = read_stock_data_from_csv(csv_file)
-    for stock in stock_data:
-        extract_and_save(stock)
+    Window.size = (825, 700)
+    HousePredictionApp().run()
