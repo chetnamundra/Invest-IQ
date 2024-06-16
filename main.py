@@ -8,6 +8,7 @@ from app.choose_stock import create_top_layout
 from app.financial import create_bottom
 from web_scrape.ws_main import run_now
 
+
 class HousePredictionApp(App):
     def build(self):
         self.screen_manager = ScreenManager()
