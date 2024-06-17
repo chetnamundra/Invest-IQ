@@ -15,7 +15,7 @@ class ChatBoxLabel(Label):
     def __init__(self, is_user, **kwargs):
         super().__init__(**kwargs)
         self.is_user = is_user
-        self.color = (1, 1, 1, 1) if is_user else (0, 0, 0, 1)
+        self.text_color = (0, 0, 0, 1) if not is_user else (1, 1, 1, 1)
         self.bind(size=self._update_canvas, pos=self._update_canvas)
         self._update_canvas()
 
@@ -51,24 +51,7 @@ class ChatApp(App):
         self.layout.add_widget(self.scroll_view)
         self.layout.add_widget(self.input_box)
 
-        Window.bind(on_resize=self.on_window_resize)  # Bind window resize event
-
         return self.layout
-
-    def on_window_resize(self, window, width, height):
-        # Update the width of all labels in chat_history on window resize
-        for child in self.chat_history.children:
-            for widget in child.children:
-                if isinstance(widget, ChatBoxLabel):
-                    self.update_label_width(widget)
-
-    def update_label_width(self, label):
-        max_width = self.chat_history.width * 0.8
-        label.text_size = (max_width, None)  # Update text size for wrapping
-        label.texture_update()  # Force texture update
-        label.width = min(max_width, label.texture_size[0])
-        label.height = max(label.texture_size[1], label.line_height)
-        label.parent.height = label.height + 20  # Update box layout height
 
     def send_message(self, instance):
         user_message = self.user_input.text
@@ -91,10 +74,9 @@ class ChatApp(App):
             is_user=is_user,
             size_hint_x=None,
             size_hint_y=None,
+            width=Window.width * 0.8,
             padding=(5, 5, 5, 5),
-            width=self.chat_history.width * 0.8,  # Initial width
         )
-        label.text_size = (label.width, None)  # Enable text wrapping
         label.bind(texture_size=label.setter("size"))
         label.texture_update()
         label.height = max(label.texture_size[1], label.line_height)
@@ -113,10 +95,6 @@ class ChatApp(App):
 
         self.chat_history.add_widget(box_layout)
         self.scroll_view.scroll_to(box_layout)
-
-        # Ensure the label width is updated to be the minimum of its own width or chat_history width
-        self.update_label_width(label)
-        self.chat_history.bind(width=lambda *args: self.update_label_width(label))
 
 
 if __name__ == "__main__":

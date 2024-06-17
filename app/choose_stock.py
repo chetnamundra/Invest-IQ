@@ -30,17 +30,29 @@ stock = [
     "MARUTI",
 ]
 
-
 cur_stock = ""
 
 
-def button_update(buttons, button_to_update):
+def create_bottom(layout, financial_data):
+    layout.add_widget(Label(text=financial_data))
+    return layout
 
-    def button_clicked(button, dropdown, button_to_update):
 
+def update_all(selected_stock):
+    # Your update_all function logic here
+    print(f"Updating all with the selected stock: {selected_stock}")
+
+
+def button_update(buttons, button_to_update, callback=None):
+
+    def button_clicked(button, dropdown, button_to_update, callback):
+        global cur_stock
         cur_stock = button.text
         dropdown.dismiss()
         button_to_update.text = button.text
+        if callback:
+            callback(cur_stock)
+        update_all(cur_stock)  # Call update_all whenever a button is clicked
 
     def apply_filter(wid, value, dropdown, buttons, filter1, button_to_update):
         dropdown.clear_widgets()
@@ -53,12 +65,12 @@ def button_update(buttons, button_to_update):
                 )
                 button.bind(
                     on_release=lambda btn: button_clicked(
-                        btn, dropdown, button_to_update
+                        btn, dropdown, button_to_update, callback
                     )
                 )
                 dropdown.add_widget(button)
 
-    def filterDD(buttons, button_to_update):
+    def filterDD(buttons, button_to_update, callback=None):
         filter1 = Factory.TextInput(size_hint_y=None)
         dropdown = Factory.DropDown()
         dropdown.add_widget(filter1)
@@ -70,13 +82,14 @@ def button_update(buttons, button_to_update):
         apply_filter(None, "", dropdown, buttons, filter1, button_to_update)
         return dropdown
 
-    dropdown = filterDD(buttons, button_to_update)
+    dropdown = filterDD(buttons, button_to_update, callback)
     return dropdown
 
 
 # Function to create the top layout
 def create_top_layout(top_layout):
     global stock
+
     label1 = Label(text="Stock : ")
     top_layout.add_widget(label1)
     loc_btn = Factory.FDDButton(text="Select Stock", height=50)

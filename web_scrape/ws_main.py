@@ -2,10 +2,11 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
 import csv
-import screener
-import ticker_tape
-import market_watch
-import time_news
+import web_scrape.screener as screener
+import web_scrape.ticker_tape as ticker_tape
+import web_scrape.market_watch as market_watch
+import web_scrape.time_news as time_news
+
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
@@ -72,8 +73,8 @@ def extract_and_save(stock):
     text = time_news.get_news(driver)
     current_affairs += text
 
-    text = market_watch.extract_top_headlines(driver, market_watch_url)
-    company_news += "\n" + text
+    # text = market_watch.extract_top_headlines(driver, market_watch_url)
+    # company_news += "\n" + text
 
     driver.quit()
 
@@ -94,7 +95,22 @@ def extract_and_save(stock):
         file.write("General Current Affairs\n")
         file.write(current_affairs + "\n")
 
-    return crunching_numbers, filename
+    data = (
+        "Initial information about the company\n"
+        + general_info_data
+        + "\n"
+        + "Current Financial Analysis\n"
+        + crunching_numbers
+        + "\n"
+        + "Current Company News\n"
+        + company_news
+        + "\n"
+        + "General Current Affairs\n"
+        + current_affairs
+        + "\n"
+    )
+
+    return crunching_numbers, data
 
 
 def read_stock_data_from_csv(csv_file):
@@ -114,4 +130,3 @@ def run_now(s):
             crunching_numbers, filename = extract_and_save(stock)
             break
     return crunching_numbers, filename
-

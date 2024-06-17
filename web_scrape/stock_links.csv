@@ -1,5 +1,5 @@
 name,stockcode,screener,tcikertape,marketwatch,generalinfo
-hdfcbank,HDFCBANK,https://www.screener.in/company/HDFCBANK/consolidated/,https://www.tickertape.in/stocks/hdfc-bank-HDBK,https://www.marketwatch.com/search?q=hdfc&ts=0&tab=All%20News,hdfc.txt
+hdfcbank,HDFCBANK.NS,https://www.screener.in/company/HDFCBANK/consolidated/,https://www.tickertape.in/stocks/hdfc-bank-HDBK,https://www.marketwatch.com/search?q=hdfc&ts=0&tab=All%20News,hdfc.txt
 irctc,IRCTC,https://www.screener.in/company/IRCTC/,https://www.tickertape.in/stocks/indian-railway-catering-and-tourism-corporation-INIR,https://www.marketwatch.com/search?q=%22indian%20railway%22&ts=0&tab=All%20News,irctc.txt
 infosys,INFY,https://www.screener.in/company/INFY/consolidated/,https://www.tickertape.in/stocks/infosys-INFY,https://www.marketwatch.com/search?q=infosys&ts=0&tab=All%20News,infosys.txt
 icici,ICICIBANK,https://www.screener.in/company/ICICIBANK/consolidated/,https://www.tickertape.in/stocks/icici-bank-ICBK,https://www.marketwatch.com/search?q=icici%20bank&ts=0&tab=All%20News,icici.txt

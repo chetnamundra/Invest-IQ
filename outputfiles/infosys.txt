@@ -70,76 +70,64 @@ Institutional Holdings Trend : Total Retail Holding : In last 3 months, retail h
 Institutional Holdings Trend : Foreign Institutional Holding : In last 3 months, foreign institutional holding of the company has almost stayed constant
 dividend Trend : Increasing Dividends : INFY has increased dividends consistently over the last 5 years
 dividend Trend : Dividend Yield : Current dividend yield is 3.14%. An investment of ₹1,000 in the stock is expected to generate dividend of ₹31.39 every year
-2024-06-14T06:33:00 : Tech Mahindra falls Friday, underperforms market
-2024-06-14T06:30:00 : Infosys outperforms competitors despite losses on the day
-2024-06-13T06:33:00 : Tech Mahindra rises Thursday, outperforms market
-2024-06-13T06:30:00 : Infosys rises Thursday, outperforms market
-2024-06-12T06:33:00 : Tech Mahindra rises Wednesday, outperforms market
-2024-06-12T06:30:00 : Infosys falls Wednesday, underperforms market
-2024-06-11T06:33:00 : Tech Mahindra outperforms market on strong trading day
-2024-06-11T06:30:00 : Infosys underperforms Tuesday when compared to competitors
-2024-06-10T06:33:00 : Tech Mahindra underperforms Monday when compared to competitors
-2024-06-10T06:30:00 : Infosys falls Monday, underperforms market
-
 General Current Affairs
-1. Food companies take the hint as Indians clean up their diet
-2. Will Nifty touch 24,000 this week? Top 5 factors
-3. Indian startups have fired 10,000 staff so far in 2024
-4. The make-up reality: East India eyes it, faces it, nails it
-5. Vande Sleeper trials in coming two months
+1. Oyo's ₹1k cr boost may see family love & mkt experts' profit plan
+2. No land going to Adani's office from Dharavi project
+3. Zomato indeed in talks to buy Paytm's ticketing biz
+4. Pannun murder plot: Nikhil Gupta extradited to US
+5. Car dealers' roadmap to push sales too has potholes
 6. ET MARKETS
-7. M-cap of 5 of top-10 firms jumps Rs 85,582 crore
-8. The market is blowing off what the Fed is saying
-9. With DRHP, Hyundai steers towards $3B listing
-10. Water shortage: Atishi writes letter to Delhi CP
-11. Pocket Constitution popular courtesy Rahul Gandhi
-12. Global economy: Fed holds; BOJ leaves yen at risk
-13. Shooting in Detroit suburb leaves many wounded
-14. UK polls point to 'electoral extinction' for Tories
-15. Hyundai is hoping its Rs 25,000 crore public offering will help win over India and the world
-16. Police imposes Sec 144 in Noida, Greater Noida
-17. UPSC CSE 2024: Exam day arrives for lakhs
-18. India vs Canada match cancelled due to rain
-19. BMW 5 Series Long Wheelbase is here; Check details
-20. IMD Update: Monsoon progresses in some states
-21. With Naidu's return, Andhra's proposed capital city of Amaravati is ready for a revival
-22. T20 WC: Oz win toss, opt to field against Scotland
-23. Scrap NEET, allow states to conduct tests: DKS
-24. Trump challenges Biden to cognitive test, confuses doc name
-25. Odisha : CM Mohan Charan Majhi keeps home, admin
-26. Major fire erupts near Manipur CM's bungalow
-27. Cricket in US may be there to stay. But let’s not get unrealistic about conquering American hearts soon
-28. North East India to be battered by heavy rains
+7. Rs 50K cr worth IPOs likely in next few months
+8. Bull run expected to continue in Nifty
+9. IT sector is currently a dark horse: Kulkarni
+10. Yediyurappa to appear before CID in POCSO case
+11. Gunshots heard in Bandipora, search ops underway
+12. Who will be the next Lok Sabha Speaker?
+13. Container shipping rates rise amid port congestion
+14. FM, industry bodies to hold pre-budget meeting
+15. Vi's share dilution not done yet! Nokia, Ericsson may get more shares but Indus has a problem
+16. Air India flyer recounts 'nightmare' flight to US
+17. India refuses to sign joint communique on Ukraine
+18. Delhi's Water Woes: Long lines amid blame game
+19. 'Time is ripe, my entry has begun,' says Sasikala
+20. India opts out of Ukraine peace summit communique
+21. Fortis, Apollo, Medanta, and Max lead the charge in the bidding war for Jaypee Healthcare
+22. At least 19 hajj pilgrims dead in Saudi Arabia
+23. 'No OTP needed for unlocking EVMs': Officer
+24. Vande Sleeper trials in coming two months
+25. AAP accuses BJP of vandalising DJB office
+26. IIFL Fin hires team to implement corrective actions
+27. Why didn't India Inc fill your pockets with dividends? They have a mega capex task
+28. Implement area domination in J&K: HM to agencies
 29. Mastering data analytics for business
-30. Latest interest rates of PPF, SSY, SCSS, NCS
-31. Boeing just can't seem to fly out of its air pocket
-32. Reasi attack: 10 critically injured discharged
-33. 'Big blunder': Fresh twist in Indrani Mukerjea's case
-34. MBA vs. BTech: The salary showdown narrows, making mgmt degrees less tempting
-35. Uttarakhand tempo accident: 12 killed, 14 injured
-36. El Nino ends, better monsoon on cards
-37. Kuwait cracks down on illegal prop extensions
-38. India vs Canada weather forecast
-39. 6 banks have revised loan interest rates in June
-40. Experience of dealing with all conditions of economy : 5 Midcaps with upside potential of upto 42%
-41. IT sector: As the global interest rate cycle changes, time to shed the bias against them? 7 software stocks with upside potential of upto 32 %
-42. Stock picks of the week: 5 stocks with consistent score improvement and upside potential of up to 44%
-43. WinZO vs. Hike: Kavin Mittal dragged to arbitration over alleged IP breach
-44. How PTC, PFS used INR1 crore company funds to save Pawan Singh
-45. Here’s what sent markets into a tailspin on poll results day
-46. No land to Adani group in Dharavi project
-47. I-T relief up next? CII's Puri weighs in
-48. Real estate prices set to soar in Amaravati
-49. Shah on Mahindra's plans for cell production
-50. India's coal import rises 13% to 26 MT
-51. Sunak: UK's embattled Conservative leader
-52. Deadly 'flesh-eating bacteria' sweeps Japan
-53. DPDP rules: Industry consultations soon
-54. Eight Israeli soldiers killed in southern Gaza
-55. Italian PM Meloni officially closes G7 Summit
-56. Most doctors in US are from India
-57. Electronic mfg likely to 2x in next 5 yrs: Govt
-58. Ukraine summit opens in Switzerland
-59. Karnataka hikes petrol, diesel prices by Rs 3/lt
-60. Uttarakhand Tourism teams with Prime Focus Technologies
+30. 'Sweeping generalisation': BJP tells Musk over EVM
+31. Global rate-cut juggernaut is struggling to start
+32. Saudi, India, SA opt out of Ukraine declaration
+33. How to save Rs 1 cr with Rs 50,000 salary per month
+34. Are your savings for child's education safe? Market volatility, inflation pose serious risks
+35. Did Darshan kill his ex-manager Mallikarjun?
+36. NEET irregularities: NTA officials warned
+37. 5 investing lessons from Roger Federer’s career
+38. EVMs in India are a 'black box': Rahul Gandhi
+39. M-cap of 5 of top-10 firms jumps Rs 85,582 crore
+40. Momentum in the making? List of 15 stocks that are trending post-polls.
+41. How soon can Ankur Jain take Bira to the promised land of profits?
+42. Telangana Police data leak: 20-year-old hacker raises six serious questions
+43. With Odisha and Andhra being governed by NDA 3.0. Will Aquaculture, a sector dominated by small caps see a turnaround?
+44. Defence stocks have done it, will the infrastructure sector follow suit? 6 stocks of the highway makers
+45. This ratio helps in avoiding mirage of value in bullish time: 5 stocks from different sectors for long-term investors
+46. Adani signs MoU for hydro plant with Bhutan
+47. Scientists now making 'rice with beef cells'
+48. China's May factory output misses forecasts
+49. For bigger catch, cons go phishing for whales
+50. Demand for dollar loans may decline: BofA
+51. Intense heat leads to rise in tomato prices
+52. Essar to invest Rs 30,000 cr in green H2
+53. Babar Azam eclipses Dhoni's T20 WC record
+54. R'than okays land for 4 solar projects
+55. Babar on future after Pak's shock WC exit
+56. Malayalam cinema dazzles on silver screens
+57. Duty evasion up to Rs 1 cr may avoid jail term
+58. Pakistan register three-wicket win over Ireland
+59. SOPs for faster sanction of loans in works
 
